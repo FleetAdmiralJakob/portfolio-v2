@@ -1,6 +1,9 @@
 ---
 let { title } = Astro.props;
 
+import "../styles/global.css";
+import { House, UserRound, Presentation, ScrollText, Mail } from "lucide-astro";
+
 title = title
   ? title + " - Jakob Rössner | Portfolio"
   : "Jakob Rössner | Portfolio";
@@ -15,7 +18,20 @@ title = title
     <title>{title}</title></head
   >
 
-  <body>
+  <body class="bg-background text-text">
+    <nav class="flex justify-around items-center py-2 border-b">
+      <h1
+        class="text-4xl bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary"
+      >
+        Jr.
+      </h1>
+      <a href="#" class="flex gap-2"><House />Home</a>
+      <a href="#" class="flex gap-2"><UserRound />About</a>
+      <a href="#" class="flex gap-2"><Presentation />Projects</a>
+      <a href="#" class="flex gap-2"><ScrollText />References and CVs</a>
+      <a href="#" class="flex gap-2"><Mail />Contact</a>
+    </nav>
+
     <slot />
   </body>
 </html>
