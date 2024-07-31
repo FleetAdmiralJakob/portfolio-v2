@@ -1,6 +1,8 @@
 ---
 let { title } = Astro.props;
 
+import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
+
 import "../styles/global.css";
 import { House, UserRound, Presentation, ScrollText, Mail } from "lucide-astro";
 
@@ -19,18 +21,51 @@ title = title
   >
 
   <body class="bg-background text-text">
-    <nav class="flex justify-around items-center py-2 border-b">
-      <h1
-        class="text-4xl bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary"
+    <Astronav>
+      <div
+        class="flex flex-col border-b py-2 lg:flex-row lg:items-center lg:justify-around"
       >
-        Jr.
-      </h1>
-      <a href="#" class="flex gap-2"><House />Home</a>
-      <a href="#" class="flex gap-2"><UserRound />About</a>
-      <a href="#" class="flex gap-2"><Presentation />Projects</a>
-      <a href="#" class="flex gap-2"><ScrollText />References and CVs</a>
-      <a href="#" class="flex gap-2"><Mail />Contact</a>
-    </nav>
+        <div class="flex w-full items-center justify-between lg:w-auto">
+          <a
+            class="bg-gradient-to-r from-primary to-secondary bg-clip-text px-10 text-4xl text-transparent"
+            href="/"
+          >
+            Jr.
+          </a>
+
+          <MenuIcon class="mx-10 block lg:hidden" />
+        </div>
+        <MenuItems class="hidden w-full lg:block">
+          <div class="flex w-full flex-col gap-5 lg:flex-row lg:justify-around">
+            <a
+              href="#"
+              class="lg:items-normal flex flex-col items-center gap-0.5 lg:flex-row lg:gap-2"
+              ><House />Home</a
+            >
+            <a
+              href="#"
+              class="lg:items-normal flex flex-col items-center gap-0.5 lg:flex-row lg:gap-2"
+              ><UserRound />About</a
+            >
+            <a
+              href="#"
+              class="lg:items-normal flex flex-col items-center gap-0.5 lg:flex-row lg:gap-2"
+              ><Presentation />Projects</a
+            >
+            <a
+              href="#"
+              class="lg:items-normal flex flex-col items-center gap-0.5 lg:flex-row lg:gap-2"
+              ><ScrollText />References and CVs</a
+            >
+            <a
+              href="#"
+              class="lg:items-normal flex flex-col items-center gap-0.5 lg:flex-row lg:gap-2"
+              ><Mail />Contact</a
+            >
+          </div>
+        </MenuItems>
+      </div>
+    </Astronav>
 
     <slot />
   </body>
