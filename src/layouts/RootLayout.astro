@@ -2,6 +2,7 @@
 let { title } = Astro.props;
 
 import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
+import Themes from "astro-themes";
 
 import "../styles/global.css";
 import { House, UserRound, Presentation, ScrollText, Mail } from "lucide-astro";
@@ -14,7 +15,8 @@ title = title
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <Themes />
+    <link rel="icon" type="image/svg+xml" href="/favicon.png" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title></head
