@@ -16,22 +16,22 @@ importers:
         version: 3.1.6
       '@astrojs/tailwind':
         specifier: ^5.1.0
-        version: 5.1.0(astro@4.13.3(typescript@5.5.4))(tailwindcss@3.4.10)
+        version: 5.1.0(astro@4.13.4(typescript@5.5.4))(tailwindcss@3.4.10)
       '@astrojs/vercel':
         specifier: ^7.7.2
-        version: 7.7.2(astro@4.13.3(typescript@5.5.4))
+        version: 7.7.2(astro@4.13.4(typescript@5.5.4))
       astro:
         specifier: ^4.12.2
-        version: 4.13.3(typescript@5.5.4)
+        version: 4.13.4(typescript@5.5.4)
       astro-meta-tags:
         specifier: ^0.3.0
-        version: 0.3.0(astro@4.13.3(typescript@5.5.4))
+        version: 0.3.0(astro@4.13.4(typescript@5.5.4))
       astro-navbar:
         specifier: ^2.3.3
         version: 2.3.3
       lucide-astro:
         specifier: ^0.427.0
-        version: 0.427.0(astro@4.13.3(typescript@5.5.4))
+        version: 0.427.0(astro@4.13.4(typescript@5.5.4))
       tailwindcss:
         specifier: ^3.4.7
         version: 3.4.10
@@ -41,7 +41,7 @@ importers:
     devDependencies:
       astro-themes:
         specifier: ^0.2.5
-        version: 0.2.5(astro@4.13.3(typescript@5.5.4))
+        version: 0.2.5(astro@4.13.4(typescript@5.5.4))
       prettier:
         specifier: ^3.3.3
         version: 3.3.3
@@ -70,6 +70,9 @@ packages:
 
   '@astrojs/compiler@2.10.2':
     resolution: {integrity: sha512-bvH+v8AirwpRWCkYJEyWYdc5Cs/BjG2ZTxIJzttHilXgfKJAdW2496KsUQKzf5j2tOHtaHXKKn9hb9WZiBGpEg==}
+
+  '@astrojs/compiler@2.10.3':
+    resolution: {integrity: sha512-bL/O7YBxsFt55YHU021oL+xz+B/9HvGNId3F9xURN16aeqDK9juHGktdkCSXz+U4nqFACq6ZFvWomOzhV+zfPw==}
 
   '@astrojs/compiler@2.9.2':
     resolution: {integrity: sha512-Vpu0Ffsj8SoV+N0DFHlxxOMKHwSC9059Xy/OlG1t6uFYSoJXxkBC2WyF6igO7x10V+8uJrhOxaXr3nA90kJXow==}
@@ -518,6 +521,9 @@ packages:
     resolution: {integrity: sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==}
     engines: {node: '>= 8'}
 
+  '@oslojs/encoding@0.4.1':
+    resolution: {integrity: sha512-hkjo6MuIK/kQR5CrGNdAPZhS01ZCXuWDRJ187zh6qqF2+yMHZpD9fAYpX8q2bOO6Ryhl3XpCT6kUX76N8hhm4Q==}
+
   '@pkgjs/parseargs@0.11.0':
     resolution: {integrity: sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==}
     engines: {node: '>=14'}
@@ -785,8 +791,8 @@ packages:
     peerDependencies:
       astro: '*'
 
-  astro@4.13.3:
-    resolution: {integrity: sha512-MyhmM0v5sphiVwxAm5jjKxWeuPZijWPJ8Ajdign9QzEmLWSH8vUYIJWx/dWRQ6vF1I0jXrksoj3wtw5nzXt9nw==}
+  astro@4.13.4:
+    resolution: {integrity: sha512-uoW961qyU5xxCiUzITVX8wYmdWbSH1zeog9UomoWC5uNpnIbH6WxOPv/qYu2m7W4r2PCxdRqfVXoYjZhFyGfTA==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -1019,8 +1025,8 @@ packages:
   electron-to-chromium@1.5.2:
     resolution: {integrity: sha512-kc4r3U3V3WLaaZqThjYz/Y6z8tJe+7K0bbjUVo3i+LWIypVdMx5nXCkwRe6SWbY6ILqLdc1rKcKmr3HoH7wjSQ==}
 
-  electron-to-chromium@1.5.6:
-    resolution: {integrity: sha512-jwXWsM5RPf6j9dPYzaorcBSUg6AiqocPEyMpkchkvntaH9HGfOOMZwxMJjDY/XEs3T5dM7uyH1VhRMkqUU9qVw==}
+  electron-to-chromium@1.5.7:
+    resolution: {integrity: sha512-6FTNWIWMxMy/ZY6799nBlPtF1DFDQ6VQJ7yyDP27SJNt5lwtQ5ufqVvHylb3fdQefvRcgA3fKcFMJi9OLwBRNw==}
 
   emmet@2.4.7:
     resolution: {integrity: sha512-O5O5QNqtdlnQM2bmKHtJgyChcrFMgQuulI+WdiOw2NArzprUqqxUW6bgYtKvzKgrsYpuLWalOkdhNP+1jluhCA==}
@@ -2437,6 +2443,8 @@ snapshots:
 
   '@astrojs/compiler@2.10.2': {}
 
+  '@astrojs/compiler@2.10.3': {}
+
   '@astrojs/compiler@2.9.2': {}
 
   '@astrojs/internal-helpers@0.4.1': {}
@@ -2499,9 +2507,9 @@ snapshots:
       stream-replace-string: 2.0.0
       zod: 3.23.8
 
-  '@astrojs/tailwind@5.1.0(astro@4.13.3(typescript@5.5.4))(tailwindcss@3.4.10)':
+  '@astrojs/tailwind@5.1.0(astro@4.13.4(typescript@5.5.4))(tailwindcss@3.4.10)':
     dependencies:
-      astro: 4.13.3(typescript@5.5.4)
+      astro: 4.13.4(typescript@5.5.4)
       autoprefixer: 10.4.19(postcss@8.4.40)
       postcss: 8.4.40
       postcss-load-config: 4.0.2(postcss@8.4.40)
@@ -2521,13 +2529,13 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/vercel@7.7.2(astro@4.13.3(typescript@5.5.4))':
+  '@astrojs/vercel@7.7.2(astro@4.13.4(typescript@5.5.4))':
     dependencies:
       '@astrojs/internal-helpers': 0.4.1
       '@vercel/analytics': 1.3.1
       '@vercel/edge': 1.1.2
       '@vercel/nft': 0.27.3
-      astro: 4.13.3(typescript@5.5.4)
+      astro: 4.13.4(typescript@5.5.4)
       esbuild: 0.21.5
       fast-glob: 3.3.2
       set-cookie-parser: 2.6.0
@@ -2897,6 +2905,8 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.17.1
 
+  '@oslojs/encoding@0.4.1': {}
+
   '@pkgjs/parseargs@0.11.0':
     optional: true
 
@@ -3150,19 +3160,19 @@ snapshots:
 
   array-iterate@2.0.1: {}
 
-  astro-meta-tags@0.3.0(astro@4.13.3(typescript@5.5.4)):
+  astro-meta-tags@0.3.0(astro@4.13.4(typescript@5.5.4)):
     dependencies:
-      astro: 4.13.3(typescript@5.5.4)
+      astro: 4.13.4(typescript@5.5.4)
 
   astro-navbar@2.3.3: {}
 
-  astro-themes@0.2.5(astro@4.13.3(typescript@5.5.4)):
+  astro-themes@0.2.5(astro@4.13.4(typescript@5.5.4)):
     dependencies:
-      astro: 4.13.3(typescript@5.5.4)
+      astro: 4.13.4(typescript@5.5.4)
 
-  astro@4.13.3(typescript@5.5.4):
+  astro@4.13.4(typescript@5.5.4):
     dependencies:
-      '@astrojs/compiler': 2.10.2
+      '@astrojs/compiler': 2.10.3
       '@astrojs/internal-helpers': 0.4.1
       '@astrojs/markdown-remark': 5.2.0
       '@astrojs/telemetry': 3.1.0
@@ -3172,6 +3182,7 @@ snapshots:
       '@babel/plugin-transform-react-jsx': 7.25.2(@babel/core@7.25.2)
       '@babel/traverse': 7.25.3
       '@babel/types': 7.25.2
+      '@oslojs/encoding': 0.4.1
       '@types/babel__core': 7.20.5
       '@types/cookie': 0.6.0
       acorn: 8.12.1
@@ -3297,7 +3308,7 @@ snapshots:
   browserslist@4.23.3:
     dependencies:
       caniuse-lite: 1.0.30001651
-      electron-to-chromium: 1.5.6
+      electron-to-chromium: 1.5.7
       node-releases: 2.0.18
       update-browserslist-db: 1.1.0(browserslist@4.23.3)
 
@@ -3441,7 +3452,7 @@ snapshots:
 
   electron-to-chromium@1.5.2: {}
 
-  electron-to-chromium@1.5.6: {}
+  electron-to-chromium@1.5.7: {}
 
   emmet@2.4.7:
     dependencies:
@@ -3853,9 +3864,9 @@ snapshots:
     dependencies:
       yallist: 3.1.1
 
-  lucide-astro@0.427.0(astro@4.13.3(typescript@5.5.4)):
+  lucide-astro@0.427.0(astro@4.13.4(typescript@5.5.4)):
     dependencies:
-      astro: 4.13.3(typescript@5.5.4)
+      astro: 4.13.4(typescript@5.5.4)
 
   magic-string@0.30.11:
     dependencies:
