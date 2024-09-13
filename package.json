@@ -17,7 +17,7 @@
     "astro": "^4.12.2",
     "astro-meta-tags": "^0.3.0",
     "astro-navbar": "^2.3.3",
-    "lucide-astro": "^0.439.0",
+    "lucide-astro": "^0.441.0",
     "tailwindcss": "^3.4.7",
     "typescript": "^5.5.4"
   },
