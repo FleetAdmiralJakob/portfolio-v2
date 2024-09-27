@@ -25,7 +25,7 @@ importers:
         version: 4.15.9(rollup@4.22.4)(typescript@5.6.2)
       astro-meta-tags:
         specifier: ^0.3.0
-        version: 0.3.0(astro@4.15.9(rollup@4.22.4)(typescript@5.6.2))
+        version: 0.3.1(astro@4.15.9(rollup@4.22.4)(typescript@5.6.2))
       astro-navbar:
         specifier: ^2.3.3
         version: 2.3.3
@@ -795,10 +795,10 @@ packages:
   array-iterate@2.0.1:
     resolution: {integrity: sha512-I1jXZMjAgCMmxT4qxXfPXa6SthSoE8h6gkSI9BGGNv8mP8G/v0blc+qFnZu6K42vTOiuME596QaLO0TP3Lk0xg==}
 
-  astro-meta-tags@0.3.0:
-    resolution: {integrity: sha512-BA8jZncOGz1DkjK4AQHt8mzXurGwhR96CZZlx2wLemRUqKTxft4N2Arg8DK/s49G/9F0g4TuxmiObVkIv/DX8g==}
+  astro-meta-tags@0.3.1:
+    resolution: {integrity: sha512-6g/SfAVTV7BsGlfWU+s/Kvo6atyn9DpfI7Dq3fE/ck3ppfg30aoeT2Uxu7UH4yla3QXAUWaJIher7fGjewf0ew==}
     peerDependencies:
-      astro: ^4.0.0
+      astro: ^4.0.0 || ^5.0.0-beta.0
 
   astro-navbar@2.3.3:
     resolution: {integrity: sha512-WAiQUVh3fS+bUw1oDcWpddFj30z3VgmMDmSjpU78idCXiV5t4KtlBvKV0mE/+hpcGLK0ji1evvCbk2wQ7wphyQ==}
@@ -3242,7 +3242,7 @@ snapshots:
 
   array-iterate@2.0.1: {}
 
-  astro-meta-tags@0.3.0(astro@4.15.9(rollup@4.22.4)(typescript@5.6.2)):
+  astro-meta-tags@0.3.1(astro@4.15.9(rollup@4.22.4)(typescript@5.6.2)):
     dependencies:
       astro: 4.15.9(rollup@4.22.4)(typescript@5.6.2)
 
