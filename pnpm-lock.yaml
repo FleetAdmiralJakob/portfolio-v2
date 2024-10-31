@@ -28,7 +28,7 @@ importers:
         version: 0.3.1(astro@4.16.8(rollup@4.24.3)(typescript@5.6.3))
       astro-navbar:
         specifier: ^2.3.3
-        version: 2.3.5
+        version: 2.3.6
       lucide-astro:
         specifier: ^0.454.0
         version: 0.454.0(astro@4.16.8(rollup@4.24.3)(typescript@5.6.3))
@@ -795,8 +795,8 @@ packages:
     peerDependencies:
       astro: ^4.0.0 || ^5.0.0-beta.0
 
-  astro-navbar@2.3.5:
-    resolution: {integrity: sha512-mSZYtYL7mUWGPIhnW0Zq9P1X++2ujNcEd6RR89Z/7bQ1hs3WemcTmGQgr7Adj7LYja0DWMnG34x07UAy+Q/84Q==}
+  astro-navbar@2.3.6:
+    resolution: {integrity: sha512-1VUtBGy55pLKEJPW3ywBFcCQRVaTBqBUg+5vwWXW3XJrJ0RfHMWVAAZ25RrNjDsXK30rZ4mWdXSGGUqEQeLs3g==}
 
   astro-themes@0.2.5:
     resolution: {integrity: sha512-aJGSKlgS1ggXZXARsusd1IzUpJ3ohSgSn2rYYtNG4s+by/w5Sctg9YI1yE1Ny+oDKalWKGLVKICygaLqVf9JBQ==}
@@ -3230,7 +3230,7 @@ snapshots:
     dependencies:
       astro: 4.16.8(rollup@4.24.3)(typescript@5.6.3)
 
-  astro-navbar@2.3.5: {}
+  astro-navbar@2.3.6: {}
 
   astro-themes@0.2.5(astro@4.16.8(rollup@4.24.3)(typescript@5.6.3)):
     dependencies:
