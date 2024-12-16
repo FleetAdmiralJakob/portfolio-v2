@@ -28,7 +28,7 @@ importers:
         version: 0.3.1(astro@5.0.5(jiti@1.21.6)(rollup@4.28.1)(typescript@5.7.2)(yaml@2.6.1))
       astro-navbar:
         specifier: ^2.3.3
-        version: 2.3.7
+        version: 2.3.8
       lucide-astro:
         specifier: ^0.468.0
         version: 0.468.0(astro@5.0.5(jiti@1.21.6)(rollup@4.28.1)(typescript@5.7.2)(yaml@2.6.1))
@@ -871,8 +871,8 @@ packages:
     peerDependencies:
       astro: ^4.0.0 || ^5.0.0-beta.0
 
-  astro-navbar@2.3.7:
-    resolution: {integrity: sha512-3rB27AkbTQVZCyrNc0C+8EK558eF9U/Ldmwnfl3w4lZ2zZCjUCiCqhoEAqkBEupiVsZux89/AkNUpBkufQQ5jA==}
+  astro-navbar@2.3.8:
+    resolution: {integrity: sha512-hvKP/V5lWYJwQnaYRs9KSnc7sd7Z+eyGWIjmzVtmrUzz5hOKCHFztz1yCLyCe0VF5nfdf3+SxJexwTV+vR+VCA==}
 
   astro-themes@0.2.5:
     resolution: {integrity: sha512-aJGSKlgS1ggXZXARsusd1IzUpJ3ohSgSn2rYYtNG4s+by/w5Sctg9YI1yE1Ny+oDKalWKGLVKICygaLqVf9JBQ==}
@@ -3092,7 +3092,7 @@ snapshots:
     dependencies:
       astro: 5.0.5(jiti@1.21.6)(rollup@4.28.1)(typescript@5.7.2)(yaml@2.6.1)
 
-  astro-navbar@2.3.7: {}
+  astro-navbar@2.3.8: {}
 
   astro-themes@0.2.5(astro@5.0.5(jiti@1.21.6)(rollup@4.28.1)(typescript@5.7.2)(yaml@2.6.1)):
     dependencies:
