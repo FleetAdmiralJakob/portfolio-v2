@@ -41,7 +41,7 @@ importers:
     devDependencies:
       astro-themes:
         specifier: ^0.2.5
-        version: 0.2.5(astro@5.7.5(jiti@2.4.2)(rollup@4.40.0)(typescript@5.8.3)(yaml@2.7.0))
+        version: 0.2.6(astro@5.7.5(jiti@2.4.2)(rollup@4.40.0)(typescript@5.8.3)(yaml@2.7.0))
       prettier:
         specifier: ^3.3.3
         version: 3.5.3
@@ -762,8 +762,8 @@ packages:
   astro-navbar@2.3.9:
     resolution: {integrity: sha512-1FpVpVbOHlXT0vi/GvHb49y5LmH3yYcSO39pcyUDZ6eISjv/d3PlUg9C84h9o5TFxb4VzkSKfI+kvvMkCfHvEg==}
 
-  astro-themes@0.2.5:
-    resolution: {integrity: sha512-aJGSKlgS1ggXZXARsusd1IzUpJ3ohSgSn2rYYtNG4s+by/w5Sctg9YI1yE1Ny+oDKalWKGLVKICygaLqVf9JBQ==}
+  astro-themes@0.2.6:
+    resolution: {integrity: sha512-rw/tB2967Ile85siw5J+L7VKBVYIb1qcUVceYleJpZQx1Ef9cdgZ5DNyvukkcpEBggc+274erubeVk0dF6qwmw==}
     peerDependencies:
       astro: '*'
 
@@ -3053,7 +3053,7 @@ snapshots:
 
   astro-navbar@2.3.9: {}
 
-  astro-themes@0.2.5(astro@5.7.5(jiti@2.4.2)(rollup@4.40.0)(typescript@5.8.3)(yaml@2.7.0)):
+  astro-themes@0.2.6(astro@5.7.5(jiti@2.4.2)(rollup@4.40.0)(typescript@5.8.3)(yaml@2.7.0)):
     dependencies:
       astro: 5.7.5(jiti@2.4.2)(rollup@4.40.0)(typescript@5.8.3)(yaml@2.7.0)
 
