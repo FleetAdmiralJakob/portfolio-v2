@@ -25,7 +25,7 @@ importers:
         version: 5.7.11(jiti@2.4.2)(rollup@4.40.2)(typescript@5.8.3)(yaml@2.7.0)
       astro-meta-tags:
         specifier: ^0.3.0
-        version: 0.3.1(astro@5.7.11(jiti@2.4.2)(rollup@4.40.2)(typescript@5.8.3)(yaml@2.7.0))
+        version: 0.3.2(astro@5.7.11(jiti@2.4.2)(rollup@4.40.2)(typescript@5.8.3)(yaml@2.7.0))
       astro-navbar:
         specifier: ^2.3.3
         version: 2.3.9
@@ -904,8 +904,8 @@ packages:
   array-iterate@2.0.1:
     resolution: {integrity: sha512-I1jXZMjAgCMmxT4qxXfPXa6SthSoE8h6gkSI9BGGNv8mP8G/v0blc+qFnZu6K42vTOiuME596QaLO0TP3Lk0xg==}
 
-  astro-meta-tags@0.3.1:
-    resolution: {integrity: sha512-6g/SfAVTV7BsGlfWU+s/Kvo6atyn9DpfI7Dq3fE/ck3ppfg30aoeT2Uxu7UH4yla3QXAUWaJIher7fGjewf0ew==}
+  astro-meta-tags@0.3.2:
+    resolution: {integrity: sha512-T2jO2WrA6970265xSYFgZD/JprPXYlmqVqj16yCdvi2OsRNWIRYzyBASPSY3SZxR9L+gGct1Nk8YnYVK21BPiA==}
     peerDependencies:
       astro: ^4.0.0 || ^5.0.0-beta.0
 
@@ -3277,7 +3277,7 @@ snapshots:
 
   array-iterate@2.0.1: {}
 
-  astro-meta-tags@0.3.1(astro@5.7.11(jiti@2.4.2)(rollup@4.40.2)(typescript@5.8.3)(yaml@2.7.0)):
+  astro-meta-tags@0.3.2(astro@5.7.11(jiti@2.4.2)(rollup@4.40.2)(typescript@5.8.3)(yaml@2.7.0)):
     dependencies:
       astro: 5.7.11(jiti@2.4.2)(rollup@4.40.2)(typescript@5.8.3)(yaml@2.7.0)
 
